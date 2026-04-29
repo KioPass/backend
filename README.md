@@ -1,17 +1,16 @@
 # backend
-## 🛠 Backend Tech Stack
+## 🛠 백엔드 스택
 
 프로젝트에 사용된 주요 기술 스택 및 환경 설정입니다.
 
-### ⚙️ Development Environment
+### ⚙️ 개발 환경
 - **IDE:** STS (Spring Tool Suite) 5.1.1
 - **Language:** Java 21 (OpenJDK)
 - **Framework:** Spring Boot 3.5.13
 - **Build Tool:** Gradle
 
-### 📚 Libraries & Dependencies
+### 📚 추가 라이브러리
 - **Lombok:** 1.18.46 (https://projectlombok.org/download)
-- **Spring Web:** RESTful API 구현
 
 # 키오패스 (KioPass) - Frontend
 
