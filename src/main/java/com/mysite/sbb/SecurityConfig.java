@@ -50,7 +50,8 @@ public class SecurityConfig {
             .requestMatchers("/oauth2/**","/user/**", "/h2-console/**","/error/**","/files/**",
                 "/toss/payment",
                 "/api/payments/toss/callback", "/api/payments/toss/fail",
-                "/api/admin/setup").permitAll()
+                "/api/admin/setup",
+                "/api/door/status/**").permitAll()
             .requestMatchers("/api/admin/**").hasAuthority("ADMIN")
             .requestMatchers("/api/**").authenticated()
             .anyRequest().authenticated()
